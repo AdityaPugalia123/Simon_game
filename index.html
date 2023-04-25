@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon-Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="level">
+      <h1>Press + To Start</h1>
+      <p style="display: inline-block; position: relative; right: 300px;">Name: </p>
+      <input type="text" id="inp">
+      <p id="high_score">High Score: 0</p>
+    </div>
+
+    <div class="container">
+      
+      <button class="green box upper">
+        <p class="hidden">0</p>
+      </button>
+
+      <button class="red box upper">
+        <p class="hidden">1</p>
+      </button>
+
+      <button class="yellow box lower">
+        <p class="hidden">2</p>
+      </button>
+      <button class="blue box lower">
+        <p class="hidden">3</p> 
+      </button>
+    </div >
+    <div class="last">
+      <h1><button class="play hidden">   Play   </button></h1>
+      
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
